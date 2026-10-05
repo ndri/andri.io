@@ -46,7 +46,7 @@
 				{/each}
 			</div>
 			<div class="flex flex-wrap justify-end gap-3">
-				{#each data.socials as href}
+				{#each data.socials as href (href)}
 					<SocialLink {href} />
 				{/each}
 			</div>

@@ -1,13 +1,13 @@
 ## Tech I use
 
-I use a Macbook Pro M3 Pro with macOS Sonoma.
+I use a 2023 Macbook Pro M3 Pro.
 
 My keyboard is a [36-key Corne with Kailh Choc Sunset switches](https://bsky.app/profile/andri.io/post/3ll2t3iks4k2g) that I built myself. At work I use a [ZSA Moonlander](https://www.zsa.io/moonlander) with 36 keys. My mouse is a Logitech MX Master 3.
 
 I have Audio-Technica ATH-M50x headphones and PreSonus Eris E3.5 speakers that I
 connect with a Focusrite Scarlett 2i2.
 
-I use [VSCodium](https://vscodium.com/) for development. I prefer [Svelte](https://svelte.dev/) for new projects.
+I use [VSCodium](https://vscodium.com/) and [Zed](https://zed.dev/) for development. I prefer [Svelte](https://svelte.dev/) for new projects.
 
 Other tech I use and like:
 - [Logseq](https://logseq.com/)
