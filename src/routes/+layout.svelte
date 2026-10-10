@@ -23,8 +23,8 @@
 
 <div
 	class={[
-		'flex h-full flex-col items-center gap-4 bg-main-50 bg-pattern bg-center px-0 pt-8',
-		'sm:gap-2 sm:px-8',
+		'flex min-h-full flex-col items-center gap-4 bg-main-50 bg-pattern bg-top px-0 pt-8',
+		'sm:gap-2 sm:px-8 sm:pb-8',
 		'dark:bg-main-900'
 	]}
 >
@@ -53,8 +53,8 @@
 	</header>
 	<main
 		class={[
-			'h-full w-full max-w-2xl border border-main-200 bg-white px-6 py-8 text-main-700',
-			'sm:h-auto sm:rounded-xl sm:px-8',
+			'w-full max-w-2xl grow border border-main-200 bg-white px-6 py-8 text-main-700',
+			'sm:grow-0 sm:rounded-xl sm:px-8',
 			'prose prose-sm prose-theme dark:prose-invert prose-headings:font-medium',
 			'dark:border-main-800 dark:bg-main-950 dark:text-main-200'
 		]}
