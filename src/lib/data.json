@@ -2,7 +2,8 @@
 	"name": "Andri Soone",
 	"title": "Andri Soone",
 	"role": "Full Snack Developer",
-	"image": "/andri.jpg",
+	"image": "/andri-160.webp",
+	"imageSrcset": "/andri-320.webp 2x, /andri-480.webp 3x",
 	"nav": [
 		{
 			"label": "/",

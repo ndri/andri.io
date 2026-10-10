@@ -30,7 +30,14 @@
 >
 	<header class="flex w-full max-w-2xl flex-col items-center gap-6 text-center">
 		{#if data.image}
-			<img src={data.image} alt={data.name} width="160" height="160" class="squircle" />
+			<img
+				src={data.image}
+				srcset={data.imageSrcset}
+				alt={data.name}
+				width="160"
+				height="160"
+				class="squircle"
+			/>
 		{/if}
 		<div class="flex flex-col gap-2">
 			<h1 class="text-3xl font-semibold text-accent-700 dark:text-accent-500">{data.name}</h1>
