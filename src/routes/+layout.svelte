@@ -1,5 +1,6 @@
 <script lang="ts">
 	import '../app.css';
+	import interFont from '@fontsource-variable/inter/files/inter-latin-wght-normal.woff2?url';
 	import NavLink from '$lib/components/NavLink.svelte';
 	import SocialLink from '$lib/components/SocialLink.svelte';
 	import data from '$lib/data.json';
@@ -18,6 +19,7 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
 	<link rel="manifest" href="/site.webmanifest" />
+	<link rel="preload" href={interFont} as="font" type="font/woff2" crossorigin="anonymous" />
 	<meta name="theme-color" content="#f1f5f9" media="(prefers-color-scheme: light)" />
 	<meta name="theme-color" content="#1c1917" media="(prefers-color-scheme: dark)" />
 	<title>{pageTitle ? `${pageTitle} • ` : ''}{data.name}</title>
@@ -39,6 +41,7 @@
 				alt={data.name}
 				width="160"
 				height="160"
+				fetchpriority="high"
 				class="squircle"
 			/>
 		{/if}
