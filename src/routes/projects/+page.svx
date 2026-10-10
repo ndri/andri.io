@@ -3,6 +3,7 @@
 I've worked on some neat projects throughout the years and these are some of my favourites:
 
 - [ClankerView](https://clankerview.com) - April 2026
+- [Calibration Practice](https://calibration.andri.io/) - September 2025
 - [Slackelo](https://github.com/ndri/slackelo) - March 2025
 - [Sidekickicons](https://sidekickicons.com/) - October 2024
 - [Anneta Targalt](https://annetatargalt.ee/) - October 2023
