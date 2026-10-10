@@ -6,6 +6,6 @@ I try to do good well.
 
 I signed a [pledge](https://www.givingwhatwecan.org/pledge) to donate 10% of my income to effective charities and I think you should probably do it too.
 
-On this site you can find out which [projects](/projects) I've worked on, [what I'm up to](/now) right now and what [tech I use](/uses).
+On this site you can find out which [projects](/projects/) I've worked on, [what I'm up to](/now/) right now and what [tech I use](/uses/).
 
 Contact me at hello &lt;at&gt; andri.io

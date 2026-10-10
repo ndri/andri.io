@@ -10,15 +10,15 @@
 		},
 		{
 			"label": "/projects",
-			"href": "/projects"
+			"href": "/projects/"
 		},
 		{
 			"label": "/now",
-			"href": "/now"
+			"href": "/now/"
 		},
 		{
 			"label": "/uses",
-			"href": "/uses"
+			"href": "/uses/"
 		}
 	],
 	"socials": [

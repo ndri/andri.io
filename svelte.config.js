@@ -1,5 +1,5 @@
 import { mdsvex } from 'mdsvex';
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import { fileURLToPath } from 'node:url';
 import { dirname } from 'node:path';
@@ -15,10 +15,10 @@ const config = {
 		})
 	],
 	kit: {
-		// adapter-auto only supports some environments, see https://svelte.dev/docs/kit/adapter-auto for a list.
-		// If your environment is not supported, or you settled on a specific environment, switch out the adapter.
-		// See https://svelte.dev/docs/kit/adapters for more information about adapters.
-		adapter: adapter()
+		// The whole site is prerendered to static files and served by Caddy (see ~/Projects/vps-agent).
+		// 404.html is an SPA fallback: Caddy serves it for unknown paths and the client renders +error.svelte.
+		// If server code is ever needed, switch to @sveltejs/adapter-node (vps-agent decisions.md D9).
+		adapter: adapter({ fallback: '404.html' })
 	},
 	extensions: ['.svelte', '.svx']
 };
