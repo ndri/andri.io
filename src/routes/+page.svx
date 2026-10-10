@@ -1,11 +1,11 @@
-## Hey! I'm Andri Soone.
+## Hey! I'm Andri.
 
 I'm a 29-year-old web dev from Estonia.
 
 I try to do good well.
 
-I signed a [pledge](https://www.givingwhatwecan.org/pledge) to donate 10% of my income to effective charities and I think you should probably do it too.
+I signed a [pledge](https://www.givingwhatwecan.org/pledge) to donate 10% of my income to effective charities.
 
-On this site you can find out which [projects](/projects/) I've worked on, [what I'm up to](/now/) right now and what [tech I use](/uses/).
+On this site you can find out some [projects](/projects/) I've worked on, [what I'm up to](/now/) right now and what [tech I use](/uses/).
 
 Contact me at hello &lt;at&gt; andri.io

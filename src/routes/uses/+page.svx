@@ -1,20 +1,36 @@
 ## Tech I use
 
-I use a 2023 Macbook Pro M3 Pro.
+My laptop is a 2023 Macbook Pro M3 Pro.
 
-My keyboard is a [36-key Corne with Kailh Choc Sunset switches](https://bsky.app/profile/andri.io/post/3ll2t3iks4k2g) that I built myself. At work I use a [ZSA Moonlander](https://www.zsa.io/moonlander) with 36 keys. My mouse is a Logitech MX Master 3.
+My keyboard is a [36-key Corne with Kailh Choc Sunset switches](https://bsky.app/profile/andri.io/post/3ll2t3iks4k2g) that I built myself. At work I use a [ZSA Moonlander](https://www.zsa.io/moonlander) with 36 keys.
 
-I have Audio-Technica ATH-M50x headphones and PreSonus Eris E3.5 speakers that I
-connect with a Focusrite Scarlett 2i2.
+My mouse is a Logitech MX Master 3.
 
-I use [VSCodium](https://vscodium.com/) and [Zed](https://zed.dev/) for development. I prefer [Svelte](https://svelte.dev/) for new projects.
+My headphones are Audio-Technica ATH-M50x and [Fairphone 2023 Fairbuds XL](https://www.fairphone.com/fairbuds-xl).
 
-Other tech I use and like:
+I use [VSCodium](https://vscodium.com/) and [Zed](https://zed.dev/) for development.
+
+Current go-to stack:
+- [TypeScript](https://www.typescriptlang.org/)
+- [Svelte](https://svelte.dev/)
+- [SvelteKit](https://svelte.dev/docs/kit/introduction)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Drizzle](https://orm.drizzle.team/)
+- [BetterAuth](https://better-auth.com/)
+
+Software I like:
+- [Firefox](https://firefox.com/)
 - [Logseq](https://logseq.com/)
 - [Anki](https://apps.ankiweb.net/)
 - [GIMP](https://gimp.org/)
 - [Inkscape](https://inkscape.org/)
+- [Kdenlive](https://kdenlive.org/)
 - [Tuta](https://tuta.com/)
 - [Plausible](https://plausible.io/)
+- [Jellyfin](https://jellyfin.org/)
+
+I host my stuff on [Netcup](https://www.netcup.com/en), [Scaleway](https://scaleway.com) and [Hetzner](https://hetzner.com/). I keep my domains on [Netim](https://www.netim.com/en).
+
+I try to avoid [fashware](https://git.sr.ht/~rabbits/fashware).
 
 Find out what tech other people use at [uses.tech](https://uses.tech/).
