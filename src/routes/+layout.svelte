@@ -1,9 +1,9 @@
 <script lang="ts">
 	import '../app.css';
 	import interFont from '@fontsource-variable/inter/files/inter-latin-wght-normal.woff2?url';
-	import NavLink from '$lib/components/NavLink.svelte';
-	import SocialLink from '$lib/components/SocialLink.svelte';
-	import data from '$lib/data.json';
+	import NavLink from '#lib/components/NavLink.svelte';
+	import SocialLink from '#lib/components/SocialLink.svelte';
+	import data from '#lib/data.json';
 	import { page } from '$app/state';
 
 	let { children } = $props();

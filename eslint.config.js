@@ -6,7 +6,9 @@ import svelte from 'eslint-plugin-svelte';
 import { defineConfig } from 'eslint/config';
 import globals from 'globals';
 import ts from 'typescript-eslint';
-import svelteConfig from './svelte.config.js';
+import { loadConfig } from '@sveltejs/load-config';
+
+const svelteConfig = (await loadConfig('./', { traverse: false }))?.config;
 
 const gitignorePath = fileURLToPath(new URL('./.gitignore', import.meta.url));
 
@@ -21,16 +23,17 @@ export default defineConfig(
 		languageOptions: {
 			globals: { ...globals.browser, ...globals.node }
 		},
-		rules: { // typescript-eslint strongly recommend that you do not use the no-undef lint rule on TypeScript projects.
-		// see: https://typescript-eslint.io/troubleshooting/faqs/eslint/#i-get-errors-from-the-no-undef-rule-about-global-variables-not-being-defined-even-though-there-are-no-typescript-errors
-		"no-undef": 'off' }
+		rules: {
+			// typescript-eslint strongly recommend that you do not use the no-undef lint rule on TypeScript projects.
+			// see: https://typescript-eslint.io/troubleshooting/faqs/eslint/#i-get-errors-from-the-no-undef-rule-about-global-variables-not-being-defined-even-though-there-are-no-typescript-errors
+			'no-undef': 'off',
+			// The site has no base path, and link hrefs come from data.json and Markdown (often external URLs),
+			// so wrapping them in resolve() adds nothing. goto() and history calls are still checked.
+			'svelte/no-navigation-without-resolve': ['error', { ignoreLinks: true }]
+		}
 	},
 	{
-		files: [
-			'**/*.svelte',
-			'**/*.svelte.ts',
-			'**/*.svelte.js'
-		],
+		files: ['**/*.svelte', '**/*.svelte.ts', '**/*.svelte.js'],
 		languageOptions: {
 			parserOptions: {
 				projectService: true,

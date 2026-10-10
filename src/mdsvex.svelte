@@ -1,6 +1,5 @@
 <script lang="ts" module>
-	import a from '$lib/components/Link.svelte';
-	export { a };
+	export { default as a } from '#lib/components/Link.svelte';
 </script>
 
 <script lang="ts">

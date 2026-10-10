@@ -1,5 +1,5 @@
 <script lang="ts">
-	import data from '$lib/data.json';
+	import data from '#lib/data.json';
 
 	interface Props {
 		text?: string;
