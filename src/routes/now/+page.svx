@@ -2,7 +2,7 @@
 
 I am from Estonia, but I currently live in Copenhagen, Denmark.
 
-I work as a frontend developer for [Ocean.io](https://ocean.io/).
+I work as a frontend developer at [Ocean.io](https://ocean.io/).
 
 I'm an active volunteer at [Effective Altruism Estonia](https://www.efektiivnealtruism.org/).
 

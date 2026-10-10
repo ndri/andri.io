@@ -2,6 +2,7 @@
 	"name": "Andri Soone",
 	"title": "Andri Soone",
 	"role": "Full Snack Developer",
+	"description": "I'm Andri Soone, a web developer from Estonia. Find out about my projects, what I'm up to right now and the tech I use.",
 	"image": "/andri-160.webp",
 	"imageSrcset": "/andri-320.webp 2x, /andri-480.webp 3x",
 	"nav": [
@@ -11,15 +12,18 @@
 		},
 		{
 			"label": "/projects",
-			"href": "/projects/"
+			"href": "/projects/",
+			"description": "Some of my favourite projects I've worked on over the years."
 		},
 		{
 			"label": "/now",
-			"href": "/now/"
+			"href": "/now/",
+			"description": "What I'm up to right now: where I live, where I work and where I volunteer."
 		},
 		{
 			"label": "/uses",
-			"href": "/uses/"
+			"href": "/uses/",
+			"description": "The hardware, software and tech stack I use."
 		}
 	],
 	"socials": [

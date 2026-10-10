@@ -48,9 +48,9 @@
 	--tw-prose-body: var(--color-main-800);
 	--tw-prose-headings: var(--color-accent-700);
 	--tw-prose-lead: var(--color-main-700);
-	--tw-prose-links: var(--color-accent-600);
-	--tw-prose-links-hover: var(--color-accent-500);
-	--tw-prose-links-active: var(--color-accent-400);
+	--tw-prose-links: var(--color-accent-700);
+	--tw-prose-links-hover: var(--color-accent-800);
+	--tw-prose-links-active: var(--color-accent-900);
 	--tw-prose-bold: var(--color-main-900);
 	--tw-prose-counters: var(--color-main-600);
 	--tw-prose-bullets: var(--color-main-400);

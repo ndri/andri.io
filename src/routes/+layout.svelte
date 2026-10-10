@@ -8,7 +8,9 @@
 	let { children } = $props();
 
 	const currentPath = $derived(page.url.pathname);
-	const pageTitle = $derived(data.nav.find((item) => item.href === currentPath)?.label);
+	const currentPage = $derived(data.nav.find((item) => item.href === currentPath));
+	const pageTitle = $derived(currentPage?.label);
+	const pageDescription = $derived(currentPage?.description ?? data.description);
 </script>
 
 <svelte:head>
@@ -19,6 +21,7 @@
 	<meta name="theme-color" content="#f1f5f9" media="(prefers-color-scheme: light)" />
 	<meta name="theme-color" content="#1c1917" media="(prefers-color-scheme: dark)" />
 	<title>{pageTitle ? `${pageTitle} • ` : ''}{data.name}</title>
+	<meta name="description" content={pageDescription} />
 </svelte:head>
 
 <div
